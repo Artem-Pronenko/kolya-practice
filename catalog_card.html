@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Каталог</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+
+  <nav class="nav-phone">
+    <input class="nav__check" type="checkbox" id="showmenu" />
+    <label class="nav__showmenu" for="showmenu">
+
+    </label>
+    <label class="nav__back" for="showmenu"></label>
+    <ul class="menu">
+      <li>
+        <a class="menu__item-phone" href="catalog_card.html">Каталог</a>
+        <input class="menu__check" type="checkbox" id="menu2">
+        <label class="menu__showsub" for="menu2">&#9660;</label>
+        <ul class="menu__submenu">
+          <li><a class="menu__item-phone" href="catalog_card.html">Кухня</a>
+            <input class="menu__check" type="checkbox" id="menu3">
+            <label class="menu__showsub2" for="menu3">&#9660;</label>
+            <ul class="menu__submenu">
+              <li><a class="menu__item-phone" href="catalog_card.html">Обеденные столы</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Кухонные уголки</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Стулья</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Табуреты</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Комплектующие</a></li>
+            </ul>
+          </li>
+          <li><a class="menu__item-phone" href="catalog_card.html">Гостинная</a>
+            <input class="menu__check" type="checkbox" id="menu4">
+            <label class="menu__showsub3" for="menu4">&#9660;</label>
+            <ul class="menu__submenu">
+              <li><a class="menu__item-phone" href="catalog_card.html">Обеденные столы</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Кухонные уголки</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Стулья</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Табуреты</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Комплектующие</a></li>
+            </ul>
+          </li>
+          <li><a class="menu__item-phone" href="catalog_card.html">Спальня</a>
+            <input class="menu__check" type="checkbox" id="menu5">
+            <label class="menu__showsub4" for="menu5">&#9660;</label>
+            <ul class="menu__submenu">
+              <li><a class="menu__item-phone" href="catalog_card.html">Комоды</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Тумбы прикроватные</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Туалетные столики</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Кровати</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Матрасы</a></li>
+            </ul>
+          </li>
+          <li><a class="menu__item-phone" href="catalog_card.html">Детская </a>
+            <input class="menu__check" type="checkbox" id="menu6">
+            <label class="menu__showsub5" for="menu6">&#9660;</label>
+            <ul class="menu__submenu">
+              <li><a class="menu__item-phone" href="catalog_card.html">Письменные столы</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Компьютерные столы</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Кровати детские</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Шкафы детские</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Комоды и тумбы</a></li>
+            </ul>
+          </li>
+          <li><a class="menu__item-phone" href="catalog_card.html">Прихожая </a>
+            <input class="menu__check" type="checkbox" id="menu7">
+            <label class="menu__showsub6" for="menu7">&#9660;</label>
+            <ul class="menu__submenu">
+              <li><a class="menu__item-phone" href="catalog_card.html">Обувницы</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Шкафы</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Зеркала</a></li>
+              <li><a class="menu__item-phone" href="catalog_card.html">Вешалки</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a class="menu__item-phone" href="catalog_card.html">Услуги</a></li>
+      <li><a class="menu__item-phone" href="catalog_card.html">О магазине</a></li>
+      <li><a class="menu__item-phone" href="catalog_card.html">Акции и паспродажи</a></li>
+      <li><a class="menu__item-phone" href="catalog_card.html">Доставка и оплата</a></li>
+      <li><a class="menu__item-phone" href="catalog_card.html">Контакты</a></li>
+      <li><a class="menu__item-phone tell-menu tell__menu" href="tel:+7(950)430-25-25">+7 (950) 430-25-25</a></li>
+      <li><a class="menu__item-phone tell-menu" href="tel:+7(999)350-45-50">+7 (999) 350-45-50</a></li>
+
+    </ul>
+  </nav>
+
+
+  <!-- <header> -->
+  <div class="container">
+    <div class="nav">
+      <div class="nav-logo"><a href="index.html"><img src="img/logo.png" alt="Логотип"></a></div>
+      <input type="text" class="input nav__input" placeholder="Поиск по запросу">
+      <ul>
+        <li class="nav-contacts nav-contacts__list">
+          <img class="nav-contacts__img" src="img/nav_slider/many.png" alt="#">15 000 рублей
+        </li>
+        <li class="nav-contacts nav-contacts__list">
+          <img class="nav-contacts__img" src="img/nav_slider/tell.png" alt="phone">
+          <a class="nav-contacts__phone main" href="tel:+7(950)430-25-25">+7 (950) 430-25-25</a>
+        </li>
+        <li class="nav-contacts nav-contacts__list">
+          <img class="nav-contacts__img" src="img/nav_slider/tell.png" alt="phone">
+          <a class="nav-contacts__phone" href="tel:+7(999)350-45-50">+7 (999) 350-45-50</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr class="hr nav__hr">
+  <div class="container">
+    <ul class="navbar navbar__content">
+      <li class="navbar__iteam" id="nav_list"><a class="navbar__navigation-active" href="catalog_card.html">Каталог</a>
+        <ul class="visible-menu" id="submenu">
+          <li class="submenu">
+            <span class="submenu__title">Кухня</span>
+            <ul class="submenu-block">
+              <li class="submenu__item"><a href="#">Обеденные столы</a></li>
+              <li class="submenu__item"><a href="#">Кухонные уголки</a></li>
+              <li class="submenu__item"><a href="#">Стулья</a></li>
+              <li class="submenu__item"><a href="#">Табуреты</a></li>
+              <li class="submenu__item"><a href="#">Комплектующие</a></li>
+            </ul>
+          </li>
+          <li class="submenu submenu__two">
+            <span class="submenu__title">Гостинная</span>
+            <ul class="submenu-block">
+              <li class="submenu__item"><a href="#">Шкафы</a></li>
+              <li class="submenu__item"><a href="#">ТВ-тумбы</a></li>
+              <li class="submenu__item"><a href="#">Журнальные столы</a></li>
+              <li class="submenu__item"><a href="#">Мягкая мебель</a></li>
+              <li class="submenu__item"><a href="#">Стеллажы</a></li>
+            </ul>
+          </li>
+          <li class="submenu submenu__three">
+            <span class="submenu__title">Спальная</span>
+            <ul class="submenu-block">
+              <li class="submenu__item"><a href="#"> Комоды</a></li>
+              <li class="submenu__item"><a href="#"> Тумбы прикроватные</a></li>
+              <li class="submenu__item"><a href="#"> Туалетные столики</a></li>
+              <li class="submenu__item"><a href="#"> Кровати</a></li>
+              <li class="submenu__item"><a href="#"> Матрасы</a></li>
+            </ul>
+          </li>
+          <li class="submenu submenu__four">
+            <span class="submenu__title">Детская</span>
+            <ul class="submenu-block">
+              <li class="submenu__item"><a href="#">Письменные столы</a></li>
+              <li class="submenu__item"><a href="#">Компьютерные столы</a></li>
+              <li class="submenu__item"><a href="#">Кровати детские</a></li>
+              <li class="submenu__item"><a href="#">Шкафы детские</a></li>
+              <li class="submenu__item"><a href="#">Комоды и тумбы</a> </li>
+            </ul>
+          </li>
+          <li class="submenu">
+            <span class="submenu__title">Прихожая</span>
+            <ul class="submenu-block">
+              <li class="submenu__item"><a href="#">Обувницы</a></li>
+              <li class="submenu__item"><a href="#">Шкафы</a></li>
+              <li class="submenu__item"><a href="#">Зеркала</a></li>
+              <li class="submenu__item"><a href="#">Вешалки</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li class="navbar__iteam">
+        <a class="navbar__navigation" href="#">услуги</a>
+      </li>
+
+      <li class="navbar__iteam">
+        <a class="navbar__navigation" href="#">о магазине</a>
+      </li>
+
+      <li class="navbar__iteam">
+        <a class="navbar__navigation active_nav" href="#">Акции и распродажа</a>
+      </li>
+
+      <li class="navbar__iteam">
+        <a class="navbar__navigation" href="#">доставка и оплата</a>
+      </li>
+
+      <li class="navbar__iteam">
+        <a class="navbar__navigation" href="#">Контакты</a>
+      </li>
+
+      <li class="navbar-btn">
+        <button id="inviteButton" class="btn button-warning button-warning__navbar">Вызвать замерщика</button>
+        <button class="btn button-success button-success__navbar">Обратный звонок</button>
+      </li>
+    </ul>
+  </div>
+  <section class="section catalog">
+    <div class="container">
+      <div class="catalog-list">
+        <a href="index.html" class="catalog__links">Главная/</a>
+        <a href="catalog_card.html" class="catalog__links">Каталог таваров/</a>
+      </div>
+      <div class="catalog-content">
+        <div class="catalog-menu">
+          <ul class="catalog-menu__nav">
+            <a class="catalog_title " href="catalog_card.html">Каталог товаров</a>
+            <li><a href="#">
+                <img class="menu__icon" src="img/catalog/01.png" alt="#"><b class="active_first">Кухня</b>
+                <img class="menu__arrov" src="img/catalog/arrow.png" alt=">"></a>
+              <ul>
+                <li><a href="#">Обеденные столы</a></li>
+                <li><a href="#">Кухонные уголки</a></li>
+                <li><a href="#">Стулья</a></li>
+                <li><a href="#">Табуреты</a></li>
+                <li><a href="#">Комплектующие</a></li>
+              </ul>
+            </li>
+            <li><a href="#">
+                <img class="menu__icon" src="img/catalog/02.png" alt="#"> Гостинная
+                <img class="menu__arrov" src="img/catalog/arrow.png" alt=">"></a>
+              <ul>
+                <li><a href="#">Шкафы</a></li>
+                <li><a href="#">ТВ-тумбы</a></li>
+                <li><a href="#">Журнальные столы</a></li>
+                <li><a href="#">Мягкая мебель</a></li>
+                <li><a href="#">Стеллажы</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><img class="menu__icon" src="img/catalog/03.png" alt="#"> Спальня
+                <img class="menu__arrov" src="img/catalog/arrow.png" alt=">"></a>
+              <ul>
+                <li><a href="#"> Комоды</a></li>
+                <li><a href="#"> Тумбы прикроватные</a></li>
+                <li><a href="#"> Туалетные столики</a></li>
+                <li><a href="#"> Кровати</a></li>
+                <li><a href="#"> Матрасы</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><img class="menu__icon" src="img/catalog/04.png" alt="#"> Детская<img class="menu__arrov"
+                  src="img/catalog/arrow.png" alt=">"></a>
+              <ul>
+                <li><a href="#">Письменные столы</a></li>
+                <li><a href="#">Компьютерные столы</a></li>
+                <li><a href="#">Кровати детские</a></li>
+                <li><a href="#">Шкафы детские</a></li>
+                <li><a href="#">Комоды и тумбы</a> </li>
+              </ul>
+            </li>
+            <li><a href="#"><img class="menu__icon" src="img/catalog/05.png" alt="#"> Прихожая<img class="menu__arrov"
+                  src="img/catalog/arrow.png" alt=">"> </a>
+              <ul>
+                <li><a href="#">Обувницы</a></li>
+                <li><a href="#">Шкафы</a></li>
+                <li><a href="#">Зеркала</a></li>
+                <li><a href="#">Вешалки</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <section class="section product">
+          <div class="container">
+            <h2 class="title catal__title">каталог товаров</h2>
+            <div class="sorting sorting__line">
+              <h3 class="sorting-title">Сортировать&#160;по:</h3>
+              <ul class="sorting-sort">
+                <li class="sort sorting-sort__linck">Названию</li>
+                <li class="sort_two sorting-sort__linck">Цене</li>
+                <li class="sort_three sorting-sort__linck">Новинки</li>
+              </ul>
+            </div>
+            <div class="card-product__container">
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href=catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+
+              <div id="cardMuve" class="card-product__content">
+                <div class="card-product">
+                  <div class="card-product__img">
+                    <a target="_blank" href="catalog.html">
+                      <img class="card-product__image" src="img/catalog/card.jpg" alt="Товар"></a>
+                  </div>
+                  <h3 class="card-product__title">Кухня “Велес”</h3>
+                  <div class="card-product__info">
+                    <div class="card-info__star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/yellow.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                      <img src="img/catalog/grey.png" alt="star">
+                    </div>
+                    <div class="card-info__price">
+                      <span class="card-price__action"><b class="green">89 руб.</b> <s class="grey">100 руб</s></span>
+                    </div>
+                  </div>
+                  <div class="card-product__hide card-product_hide">
+                    <div class="card-hide__sum">
+                      <button class="btn-sum btn-sum__min">-</button>
+                      <input type="text" class="card__input" value="1">
+                      <button class="btn-sum btn-sum__max">+</button>
+                    </div>
+                    <button class="btn-basket"><img src="img/catalog/basket.png" alt="В корзину"></button>
+                  </div>
+                  <button class="button button__catalog button__catalog-hide">Купить в один клик</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn button-success button-success__card">Показать еще</button>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-contacts">
+        <div class="contacts-logo">
+          <img src="img/logo.png" alt="логотип">
+        </div>
+        <span class="contact__text">Современная и высококачаственная мебель для вашего дома</span>
+        <div class="contact__phone">
+          <a class="contact__tell" href="tel:+7(950)430-25-25">
+            <img src="img/nav_slider/tell.png" alt="Т">
+            <span class="contacts__phone-text">+7 (950) 430-25-25</span>
+          </a>
+        </div>
+        <div class="contact__phone">
+          <a class="contact__tell" href="tel:+7(999)350-45-50">
+            <img class="contact__tell__last" src="img/nav_slider/tell.png" alt="Т">
+            <span class="contacts__phone-text">+7 (999) 350-45-50</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-content">
+      <div class="container">
+        <ul class="footer-nav">
+          <li class="footer-way way__item way-kitchen"><a class="way-catalog" href="#">Кухни</a>
+            <ul>
+
+              <li class="way__links"><a href="catalog_card.html">Комоды</a>
+              </li>
+              <li class="way__links"><a href="catalog_card.html">Тумбы прикроватные</a>
+              </li>
+              <li class="way__links"><a href="catalog_card.html">Кровати</a>
+              </li>
+              <li class="way__links"><a href="catalog_card.html">Матрасы</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-way way__item way-livingroom"><a class="way-catalog" href="catalog_card.html">Гостинные</a>
+            <ul>
+
+              <li class="way__links">
+                <a href="catalog_card.html">Комоды</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Тумбы прикроватные</a>
+              </li>
+              <li class="way__links"><a href="catalog_card.html">Кровати</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Матрасы</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-way way__item way-bedroom"><a class="way-catalog" href="catalog_card.html">Спальни</a>
+            <ul>
+              <li class="way__links"><a href="catalog_card.html">Комоды</a>
+              </li>
+              <li class="way__links"><a href="catalog_card.html">Тумбы прикроватные</a>
+              </li>
+              <li class="way__links"><a href="catalog_card.html">Кровати</a>
+              </li>
+              <li class="way__links"><a href="catalog_card.html">Матрасы</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-way way__item way-childroom"><a class="way-catalog" href="catalog_card.html">Детские</a>
+            <ul>
+              <li class="way__links">
+                <a href="catalog_card.html">Комоды</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Тумбы прикроватные</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Кровати</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Матрасы</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="footer-way way-exit way__item"><a class="way-catalog" href="catalog_card.html">Прихожие</a>
+            <ul>
+
+              <li class="way__links">
+                <a href="catalog_card.html">Комоды</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Тумбы прикроватные</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Кровати</a>
+              </li>
+              <li class="way__links">
+                <a href="catalog_card.html">Матрасы</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="footer__coopyiraght">
+      <div class="container">
+        <div class="footer-block">
+          <span class="coopyright">© 2008-2019 МебельLike Все права защищены</span>
+          <strong class="author-tag">Создание сайта</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="success-messages">
+    <h3 class="success-messages__text">
+      <img src="img/success.png" alt="success!" width="30">Спасибо!<br>
+      <b class="success-messages__subtext">мы вам перезвоним.</b>
+    </h3>
+  </div>
+
+  <!-- модельное окно -->
+  <div class="modal">
+    <div class="invite- modal-invite__form">
+      <button class="modal-btn">&times;</button>
+      <h2 class="title invite__title">Заказать звонок</h2>
+      <span class="subtitle invite__subtitle">Отправьте заявку, свой номер телефна и имя, мы перезвоним вам в
+        течении<br>
+        30 минут.</span>
+      <form class="modals__formi" id="foorm">
+        <input type="text" name="username" required class="invine-form__input" id="modal_name"
+          placeholder="Как Вас зовут?">
+        <input id="modal_phone" type="tel" name="userphone" class="invine-form__input phone_modal"
+          placeholder="Ваш номер телефона">
+        <button class="btn button-success button-success__invine">Заказать</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal2">
+    <div class="invite- modal-invite__form">
+      <button class="modal-btn">&times;</button>
+      <h2 class="title invite__title">Пригласить замерщикак</h2>
+      <span class="subtitle invite__subtitle">Отправьте заявку на замер и мы вместе расчитаем точную стоимость вашей
+        новой
+        мебели<br></span>
+      <form class="modals__form">
+        <input type="text" name="username" required class="invine-form__input" id="modal__name"
+          placeholder="Как Вас зовут?">
+        <input id="modal__phone" type="tel" name="userphone" class="invine-form__input phone-modal"
+          placeholder="Ваш номер телефона">
+        <button class="btn button-success button-success__invine">Пригласть</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/heder_slider.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+<script>
+  $('.benefit-slider').slick({
+    slideToShow: 1,
+    arrows: false,
+    slidesPerRow: 1,
+    dots: true,
+    dotsClass: 'top-dots',
+    appendDots: $('.top-dots')
+  });
+
+  $(document).ready(function () {
+    $('.slider').slick({
+      slidesToShow: 1,
+      arrows: false,
+      dots: true,
+      dotsClass: 'my-dots',
+      appendDots: $('.my-dots')
+    });
+    $(".tab_item").not(":first").hide();
+    $(".wrapper .tab").click(function () {
+      $(".wrapper .tab").removeClass("actives").eq($(this).index()).addClass("actives");
+      $(".tab_item").hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass("actives");
+  });
+  $('.catalog-slider').slick({
+    arrows: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    draggable: false,
+    dots: true,
+    prevArrow: $('.arrow__catalog-prew'),
+    nextArrow: $('.arrow__catalog-next'),
+    dotsClass: 'catalog-dots catalog-dots',
+    customPaging: function (slick, index) {
+      var image = $(slick.$slides[index]).find('.sliders__img').attr('src');
+      return '<img src="' + image + '" alt="" />'
+    },
+    responsive: [
+      {
+        breakpoint: 567,
+        settings: {
+          dots: false,
+        }
+      }
+    ]
+  });
+</script>
+
+</html>

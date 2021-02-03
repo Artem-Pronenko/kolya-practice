@@ -1,0 +1,197 @@
+.footer
+  padding-top: 20px
+  &-contacts
+    display: flex
+    align-items: center
+    padding-bottom: 20px
+  &-content
+    padding-top: 35px
+    padding-bottom: 15px
+    padding-left: 0
+    background-color: #63564f
+  &-nav
+    padding-left: 40px
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__coopyiraght
+    background-color: #4c413c
+  &-block
+    padding-top: 18px
+    padding-bottom: 15px
+    display: flex
+    justify-content: space-between
+    align-items: center
+.way
+  &__links a
+    &:hover
+      color: darken(#fff, 30%)
+  &__item a
+    font-size: 13px
+    font-weight: 700
+    line-height: 24px
+    text-transform: uppercase
+    letter-spacing: 0.33px
+    color: #fff
+  &-catalog
+    display: block
+    margin-bottom: 25px
+  &-livingroom
+    margin-left: -44px  
+  &__links a
+    font-family: Roboto
+    font-size: 12px
+    font-weight: 400
+    line-height: 24px
+    color: #fff
+    letter-spacing: 0.35px
+  &__item
+    margin-right: 50px
+    position: relative
+    &:after
+      content: ''
+      position: absolute
+      display: block
+      width: 28px
+      top: 35px
+      border-bottom: 0.5px solid #fff 
+.author-tag
+  font-size: 14px
+  font-weight: 400
+  line-height: 25.05px
+  color: #fff
+  margin-right: 150px
+.coopyright
+  font-size: 14px
+  font-weight: 400
+  line-height: 25.05px
+  color: #fff
+.contact
+  &__text
+    max-width: 260px  
+    margin-left: 65px
+    margin-right: 270px
+    font-size: 14px
+    font-weight: 400
+    line-height: 19px
+  &__tell
+    font-size: 14px
+    color: #000;
+    outline: none;
+    text-decoration: none;
+    &__last
+      margin-left: 61px
+  &__phone img
+    margin-right: 10px
+@media (max-width: 1300px) 
+  .contact__text
+    margin-right: 100px
+@media (max-width: 1200px) 
+  .way
+    &-livingroom
+      margin-left: 0
+  .footer-nav
+    padding: 0
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    & li
+      display: block
+      margin: auto
+      width: 31%
+      text-align: center
+  .way__item
+    text-align: center
+    margin-left: 0
+    margin-bottom: 20px
+    &:after
+      width: 28px
+      top: 35px
+      right: 110px
+  .contact__text
+    margin-right: 50px
+  .way__item:after
+    right: 135px;
+  .contact__phone img
+    margin-right: 1px
+@media (max-width: 1080px) 
+  .contact__text
+    margin-right: 10px
+@media (max-width: 992px)
+  .footer-contacts
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  .contact__text
+    margin-left: 200px
+    max-width: 300px
+    font-size: 15px
+  .contact__phone 
+    padding-top: 20px
+  .way__item
+    &:after
+      right: 95px;
+  .coopyright
+    margin-left: 10px
+  .way__links a
+    margin-left: 20px
+  .way__item a
+    margin-left: 20px
+  .way__item:after
+    right: 94px;
+  .footer-contacts
+    justify-content: space-around
+@media (max-width: 768px)
+  .footer-contacts
+    justify-content: center
+  .contact__text
+    margin-left: 0
+    padding-top: 15px
+    max-width: 90%
+    text-align: left
+    font-size: 16px
+  .contact__phone 
+    width: 100%
+    text-align: center
+    padding: 0
+    margin: auto
+    padding-top: 15px
+  .contact__link__last
+    margin-left: 0
+  .way
+    &-livingroom
+      margin-left: 0
+  .footer-nav
+    padding: 0
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    & li
+      display: block
+      margin: auto
+      width: 60%
+      text-align: center
+  .way__item
+    &:after
+      left: 167px;
+      top: 30px
+      border-bottom: 1.5px solid #fff 
+  .contact__tell__last
+    margin-left: 0
+  .coopyright
+    margin-left: 10px
+@media (max-width: 576px)
+  .way__item
+    &:after
+      left: 73px;
+      top: 30px
+  .footer-block
+    flex-direction: column
+  .contact__tell__last
+    margin-left: 0px
+  .author-tag
+    margin-right: 0
+  .way__item:after
+    left: 77px;
+  .way__item a
+    margin-left: 2px

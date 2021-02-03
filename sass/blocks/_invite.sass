@@ -1,0 +1,143 @@
+.invite
+  padding-top: 80px
+  padding-bottom: 40px
+  background-color: $section-color
+  position: relative
+  &__subtitle
+    line-height: 25px
+    padding-top: 9px
+  &-content
+    display: flex
+    justify-content: space-between
+  &-tegline
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: #fff
+    height: 261px
+    width: 100%
+  &-img
+    margin-top: -100px
+  &__form
+    display: flex
+    flex-direction: column
+    margin-top: 50px;
+  &-form
+    max-width: 387px
+    margin-top: -80px
+    margin-right: 105px
+.invine-form__input
+  height: 53px;
+  margin-top: 16px;
+  padding-left: 25px
+.button-success__invine
+  display: flex
+  margin: auto
+  margin-top: 29px
+  padding: 18px 61px
+.invite
+  position: relative
+  &-tegline
+    &__form
+      background-color: #fff;
+      width: 957px;
+      height: 579px;
+      position: absolute;
+      top: -165px;
+      right: 0;
+      z-index: -1;
+.invite__subtitle
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    display: block
+    width: 47px
+    top: 90px;
+    border-bottom: 1px solid #000
+    margin-bottom: 40px
+input.invalid
+  border: 1px solid #ff0000
+.invite__form
+  position: relative
+#invite-error
+  position: absolute
+  top: 58px
+  left: 5px
+  color: red
+  font-size: 14px
+#userphone-error
+  position: absolute
+  top: 130px
+  left: 5px
+  color: red
+  font-size: 14px
+@media (min-width: 2600px)
+  .invite-tegline__form
+    width: 1601px
+@media (max-width: 2600px)
+  .invite-tegline__form
+    width: 1501px
+@media (max-width: 2275px)
+  .invite-tegline__form
+    width: 1201px
+@media (max-width: 1700px)
+  .invite-tegline__form
+    width: 961px
+@media (max-width: 1200px)
+  .invite
+    &-tegline__form
+      width: 721px
+    &-form
+      margin-left: 63px
+    &-img
+      margin-top: -47px
+@media (max-width: 992px)
+  .invite
+    &__form
+      margin-top: 76px
+    &-tegline
+      background-color: $section-color
+      &__form
+        display: none
+    &-form
+      margin-left: 63px
+      margin: auto
+    &-form
+      margin-top: 36px;
+    &-img
+      margin-top: -47px
+      display: flex;
+      margin: auto
+    &__subtitle
+      &::after
+        top: 100px;
+    &-content
+      flex-direction: column
+  .stocks
+    padding-bottom: 227px
+  .sad
+    background-color: $section-color;
+    height: 940px
+  .line
+    height: 0px;
+    padding-bottom: 5px;
+@media (max-width: 768px)
+  .invite
+    &__form
+      margin-top: 40px
+  .line
+    height: 0px;
+    padding-bottom: 0px;
+  .sad
+    height: 840px
+@media (max-width: 576px)
+  .invite
+    &__form
+      margin-top: 40px
+  .line
+    height: 0px;
+    padding-bottom: 0px;
+  .sad
+    height: 710px;

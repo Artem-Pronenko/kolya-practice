@@ -1,0 +1,358 @@
+li
+  position: relative //гыгы
+.catalog-menu 
+  background-color: #fff
+  height: 100%
+.active_first
+  margin-top: 7px
+.catalog-list
+  margin-bottom: 27px;
+.catalog__links 
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: underline;
+.menu__arrov
+  position: absolute
+  right: 35px
+.menu__icon
+  margin-right: 28px;
+  margin-left: 15px;
+.catalog-menu > ul li a
+  padding: 12px 15px 15px 14px
+  font-size: 14px;
+  color: #000000;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  height: 28px;
+.catalog-menu > ul li
+  border-bottom: 1px solid #ccc
+  height: 55px
+.catalog_title
+  display: block;
+  padding: 14px 0 14px 35px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #63564f;
+.catalog-menu li a:hover
+  color: $decorate-color
+  background-color: #ccc
+  transition: 0.2s
+.catalog-menu li:hover > ul
+  display: block
+  min-width: 228px 
+.catalog-menu li ul
+  display: none
+  position: absolute
+  top: 0px
+  right: -230px
+  z-index: 9999
+  background-color: #ededed
+  border: 1px solid #ccc
+/* основные стили слайдера и тд */
+.section.catalog
+  background-color: #fafafa;
+  padding-top: 21px;
+  padding-bottom: 37px
+.sliders
+  &__img img
+    display: flex
+    width: 130px
+.catalog
+  &__title
+    font-size: 28px;
+    text-align: left 
+    margin-bottom: 0px
+  &-content
+    display: flex
+  &-sliders
+    object-fit: cover
+  &-dots
+    display: flex
+    width: 480px;
+    margin-top: -44px;
+    margin-left: -19px;
+  &-slider
+    width: 460px
+    height: 428px;
+    margin-top: -10px
+  &-menu
+    border: 1px solid #ccc
+    width: 280px;
+    margin-right: 27px;
+  &-info
+    display: flex;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 29px;
+  &-container
+    width: 388px;
+    margin-left: 41px;
+    margin-top: 56px;
+img.sliders__img
+  width: 468px;
+  height: 509px;
+  display: block;
+.catalog
+  &-dots li
+    margin-right: -15px
+  &-price
+    display: flex
+    justify-content: space-between
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+#quantity
+  border: 1px solid #e0e0e0; 
+  width: 55px;
+  height: 38px;
+  display: inline-block;
+  text-align: center
+  align-items: center
+  vertical-align: middle
+  position: relative
+.quantity-teg
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+.btn-sum
+  width: 34px;
+  height: 39px;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+.price
+  margin-top: 31px
+  &-info
+    font-size: 15px
+  &-color
+    color: #7dad4b;
+    font-size: 16px;
+.catalog-by__button
+  margin-top: 33px
+.button-success
+  &__catalog
+    padding: 17px 60px;
+    margin-left: 11px;
+.button-warning
+  &__catalog
+    background-color: #ee8b15;
+.wrapper .actives
+  color: red;
+.catalog-sliders
+  position: relative
+.slider-arrow__catalog
+  display: flex
+  justify-content: space-between
+  width: 90%
+  position: absolute
+  top: 260px
+  left: 22px
+.card-lincks
+  padding-top: 285px
+  &__title
+    letter-spacing: 0.42px;
+    font-size: 21px;
+    text-align: left
+    margin-bottom: 25px
+.grey
+  color: #ccc
+.card
+  &__hr
+    width: 109%;
+    display: block
+    margin-top: 40px
+    border: 1px solid #ececec;
+  &-linck
+    display: flex
+    &__item
+      cursor: pointer
+      background-color: #fff;
+      width: 284px;
+      max-height: 396px;
+      -webkit-box-shadow: 0 1px 51px 11px rgba(127, 128, 139, 0.06);
+      box-shadow: 0 1px 51px 11px rgba(127, 128, 139, 0.06);
+      position: relative;
+      padding-top: 243px
+      margin-right: 12px
+      padding-right: 26px;
+      &:last-child
+        margin-right: 0px
+    &__img img
+      width: 195px;
+      position: absolute
+      top: 45px
+      left: 50%
+      transform: translateX(-50%)
+  &__info
+    margin-top: 31px;
+    margin-left: 29px;
+  &__star
+    display: flex
+    padding-top: 22px;
+    padding-bottom: 26px;
+    justify-content: space-between;
+    width: 232px;
+.price__card
+  margin-top: 0
+@media (max-width: 1220px)
+  .tabs > div
+    width: 857px;
+    overflow: auto;
+  .button-success__catalog
+    margin-left: 0px
+    padding: 16px 60px;
+@media (max-width: 1200px)
+  .card
+    &-linck
+      flex-wrap: wrap;
+      width: 650px;
+      &__item
+        margin-top: 13px
+  .catalog-info
+    line-height: 24px;
+    font-size: 16px;
+    height: 409px;
+    overflow: auto;
+    margin-bottom: 26px;
+  .button-success__catalog
+    padding: 16px 57px;
+  .catalog-menu > ul li a
+    padding: 11px 15px 17px 0px;
+    font-size: 13px;
+  .menu__arrov
+    right: 15px;
+@media (max-width: 1147px)
+  .tabs > div
+    width: 800px
+@media (max-width: 1033px)
+  .tabs > div
+    width: 760px
+@media (max-width: 992px)
+  .catalog-container
+    margin-right: 0
+  .tabs > div
+    width: 760px
+  .catalog-content
+    flex-wrap: wrap
+  img.sliders__img
+    height: 420px;
+  .catalog-dots li
+    margin-right: 0
+  .catalog-dots
+    margin: auto;
+    width: 406px;
+    margin-top: -41px;
+  .catalog__title
+    text-align: center;
+  .catalog-content
+    justify-content: flex-end
+  .catalog-info
+    margin-left: 0px
+    height: 158px;
+  .catalog-container
+    width: auto;
+  .tab__info
+    margin-top: 64px;
+  .tabbed
+    width: 688px
+  .catalog-by__button
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+  .slider-arrow__catalog
+    width: 77%
+    top: 225px
+    left: 53px
+  .catalog-menu
+    width: 268px
+  .catalog-menu
+    margin-right: 0
+@media (max-width: 864px)
+  .tabs > div
+    width: 700px
+  .slick-next
+    right: 45px;
+    background-color: red;
+  .slick-prev
+    background-color: red;
+    left: 50px;
+    z-index: 30;
+@media (max-width: 768px)
+  .card
+    &-linck
+      justify-content: center
+      margin: auto;
+      flex-wrap: wrap;
+      width: 332px;
+      &__item
+        margin-top: 13px
+  .catalog-menu
+    display: none
+  .catalog-content
+    justify-content: center
+    margin-left: 6px
+  .tabs > div
+    width: 600px
+    height: 192px
+  .tabbed
+    width: auto
+@media (max-width: 739px)
+  .tabs > div
+    width: 555px
+  .catalog__title
+    font-size: 26px;
+    margin-bottom: -15px
+@media (max-width: 620px)
+  .catalog-container
+    margin-top: 100px
+  .card-lincks__title
+    text-align: center
+@media (max-width: 576px)
+  #quantity
+    height: 39px
+    margin-top: -2px
+  img.sliders__img
+    height: 295px
+  .catalog-slider
+    margin-top: 20px;
+    width: 295px
+  .tabs > div
+    width: 300px
+  .tabs__text
+    padding: 5px 2px 0px 7px;
+  .tabbed > label:hover, .tabbed > input:checked + label
+    padding: 12px 20px;
+  .catalog-container
+    margin-top: -110px;
+  .catalog-info
+    font-size: 14px
+    height: 215px
+    width: 295px;
+  .catalog-by__button 
+    flex-wrap: wrap
+  .catalog-container
+    margin-left: -4px
+  .tabs__text
+    font-size: 13px;
+    line-height: 20px;
+  .slider-arrow__catalog
+    width: 79%
+    top: 177px;
+    left: 30px
+  .card-linck
+    margin: auto;
+    flex-wrap: wrap;
+    width: 295px;
+  .card-linck__item
+    margin-right: 0px
+  .tabbed > label:hover, .tabbed > input:checked + label
+    padding-right: 21px;

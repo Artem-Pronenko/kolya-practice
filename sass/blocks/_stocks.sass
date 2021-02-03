@@ -1,0 +1,110 @@
+.stocks
+  background-color: #f3f3f3
+  padding-top: 90px
+  padding-bottom: 411px;
+  &__item
+    margin-top: 65px
+  &-card
+    position: relative;
+    padding-bottom: 40px
+    transition: 0.2s
+    &:hover
+      background-color: #fff
+  &-item
+    display: flex
+    justify-content: space-between
+  &-date
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: block;
+    padding: 9px 5px 9px 8px;
+    max-width: 80px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 20px;
+    color: #fff;
+    background-color: #63564f;
+    font-size: 14px
+  &__title
+    margin-top: 22px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 27px;
+    padding-right: 25px;
+  &__subtitle
+    line-height: 22px
+    font-weight: 700
+    font-size: 14px
+    margin-bottom: 38px
+    padding-left: 27px;
+    padding-right: 25px;
+.button-success__stocksDown
+  display: flex;
+  margin: auto;
+  margin-top: 58px
+  padding: 16px 52px;
+.button-next__stocks
+  padding-left: 27px;
+  padding-right: 25px;
+@media (max-width: 1199px)
+  .stocks
+    &-item
+      justify-content: space-around
+      flex-wrap: wrap
+    &-card__cards
+      &:last-child
+        margin-top: 50px
+@media (max-width: 992px)
+  .stocks
+    &-card
+    &-item
+      justify-content: space-between
+    &-card__cards
+      &:last-child
+        margin: auto
+        margin-top: 10px
+    &-card__cards
+      &:first-child
+        margin-bottom: 10px
+@media (max-width: 779px)
+  .stocks
+    &-item
+      justify-content: center
+@media (max-width: 576px)
+  .tab
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 11px;
+    &__text
+      overflow: scroll;
+      height: 209px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 25px;
+    &_content
+      max-height: 310px;
+    &__img
+      max-width: 45px
+    &__info
+      padding-left: 0px;
+      font-size: 11px;
+      text-align: left;
+    &__quote
+      display: none
+  .button-success__tab
+    margin-top: 29px;
+    font-size: 13px;
+    margin-left: 0px;
+    padding: 16px 0px;
+    margin-right: 117px;
+    min-width: 130px;
+  .active
+    background: none;
+    padding: 0px 0px;
+    border-radius: 0% 52px 52px 0%;
+    max-width: 74px;
+  .stocks-card img
+    max-width: 300px
+

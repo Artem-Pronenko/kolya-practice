@@ -1,0 +1,70 @@
+.section
+  &.info
+    padding-top: 90px;
+    padding-bottom: 100px
+    background-color: #f3f3f3
+.info__subtitle
+  margin-bottom: 70px
+.info
+  &-list
+    display: flex
+    flex-wrap: wrap
+    &__item
+      width: 295px;
+      height: 251px
+      &-black
+        background-color: #fbfbfb
+        position: relative
+      &-white
+        background-color: #ffffff
+        position: relative
+    &__title
+      text-transform: uppercase
+      color: #7dad4b
+      font-size: 13px
+      margin-bottom: 6px;
+    &__subtitle
+      font-size: 13px
+      line-height: 22px
+      font-weight: 400
+      width: 217px
+    &__icon
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+    &__content
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+@media (max-width: 992px)
+  .info
+    &-list
+      justify-content: center
+      &__item
+        margin: 5px
+        &-black
+          width: 40%
+@media (max-width: 1199px)
+  .info
+    &-list
+      justify-content: center
+      &__item
+        margin: 5px
+        width: 40%
+        &-black
+          width: 40%
+@media (max-width: 768px)
+  .info
+    &-list
+      justify-content: center
+      &__item
+        margin: 5px
+        width: 100%
+        &-black
+          width: 100%
+  .title
+    font-size: 28px
+  .subtitle
+    font-size: 14px

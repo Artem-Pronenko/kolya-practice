@@ -1,0 +1,408 @@
+#submenu
+  position: absolute
+  top: 30px
+  z-index: 99999
+  display: none
+  background-color: #fff
+  transition 0.5s
+  padding: 37px;
+  padding-top: 43px;
+  padding-left: 47px;
+  padding-bottom: 30px;
+  padding-right: 0px;
+.nav
+  display: flex
+  height: 74px
+  align-items: center;
+  justify-content: space-between
+  &-contacts
+    display: inline-block
+    font-size: 13px
+    &__img
+      margin-right: 12px;
+    &__list
+      padding-right: 42px;
+      margin-top: 8px
+      font-size: 14px
+      &:last-child
+        padding-right: 0
+    &__phone
+      color: #000
+      text-decoration: none
+  &__input
+    width: 300px;
+    height: 42px;
+    margin-top: 3px;
+    font-size: 13px
+    margin-right: -26px
+    padding-left: 22px
+    background-image: url('../img/nav_slider/icon_inp.png')
+    background-repeat: no-repeat
+    background-position-y: 50%
+    background-position-x: 95%
+.main
+  padding-right: 4px;
+.navbar
+  display: flex
+  justify-content: space-around
+  &__iteam
+    margin-top: 17px;
+    margin-left: -6px;
+  &__content
+    margin-top: 0px;
+    margin-bottom: 9px
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+a.navbar__navigation
+  margin-left: 39px
+  text-decoration: none
+  text-transform: uppercase
+  color: $text-color
+  outline: none
+  font-size: 13px
+  &:hover
+    color: #ffc318
+  &-active
+    font-size: 13px
+    outline: none
+    color: $text-color
+    text-decoration: none
+    text-transform: uppercase
+    &:hover
+      color: $decorate-color
+      &::after
+        content: ''
+        position: absolute
+        display: block
+        width: 30px
+        top: 22px
+        left: 50%
+        transform: translateX(-50%)
+        border-bottom: 2px solid $decorate-color
+a.active_nav 
+  color: #ffc318
+#nav_list
+  position: relative
+.submenu 
+  list-style: none
+  text-transform: uppercase
+  font-weight: 700
+  cursor: pointer
+  &__two
+    margin-right: 42px;
+  &__three
+    margin-right: 41px;
+  &__four
+    margin-right: 41px
+  &-block
+    padding-left: 0
+  &__item
+    padding-left: 0
+    line-height: 24px;
+    margin-right: 11px
+    width: 199px
+    list-style: none
+    &:first-child
+      margin-top: 27px;
+    & a
+      text-decoration: none
+      text-transform: none
+      font-weight: 400;
+      font-size: 14px;
+      color: $text-color
+      &:hover
+        color: $decorate-color
+  &__title
+    position: relative
+    margin-bottom: 30px
+    font-size: 13px;
+    &::after
+      content: ''
+      position: absolute
+      display: block
+      width: 30px
+      top: 29px;
+      border-bottom: 2px solid $decorate-color
+.slick-slide img
+  object-fit: cover
+.slider__img
+  position: relative
+.navbar-btn
+  display: inline-flex
+  justify-content: space-between
+  flex-wrap: wrap
+.button-warning__navbar
+  margin-right: 0
+.navbar__content
+  max-width: 1172px;
+.tell__menu
+  margin-top: 190px
+.input[type="checkbox"], input[type="radio"]
+  display: none
+a.active_nav 
+  color: #ffc318
+  &:hover
+    color: $decorate-color
+a.navbar__navigation
+  &:hover
+    color: $decorate-color
+@media (min-width: 1270px)
+  .navbar
+    &__content
+      max-width: 1210px;
+@media (min-width: 1920px)
+  .button-success__navbar
+    margin-right: -23px
+  .navbar__content
+    margin-right: 5px
+  .navbar__iteam
+    margin-top: 18px;
+    margin-left: -8px;
+  .nav-contacts__img
+    margin-right: 8px
+  .slick-dots
+    position: absolute;
+    display: block;
+    width: 87%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    left: 184px;
+    bottom: 97px;
+  .slider__dots li
+    width: 180px;
+  .slider__dots img
+    width: 139px;
+    height: 95px;
+    /* слайдер */
+  .slick-slide img
+    height: 90vh
+@media (max-width: 1920px)
+  .owl
+    &-block
+      background-color: #7dad4b;
+      min-width: 348px;
+      height: 116px;
+      position: absolute;
+      left: 215px;
+      bottom: 52px;
+      z-index: 9999999;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      letter-spacing: 0.8px;
+  .slider__dots li
+    width: 172px;
+  .slider__dots img
+    width: 130px;
+    height: 95px;
+  .slick-slide img
+    height: 89vh
+  .slider__dots
+    bottom: 70px
+@media (max-width: 1600px)
+  .owl
+    &-block
+      background-color: #7dad4b;
+      min-width: 288px;
+      height: 110px;
+      position: absolute;
+      left: 185px;
+      bottom: 52px;
+      z-index: 9999999;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      letter-spacing: 0.8px;
+  .slider__dots li
+    width: 142px;
+  .slider__dots img
+    width: 100px;
+    height: 90px
+  .slider__dots
+    bottom: 70px
+  .slick-slide img
+    height: 88vh
+@media (max-width: 1450px)
+  .owl
+    &-block
+      background-color: #7dad4b;
+      min-width: 288px;
+      height: 110px;
+      position: absolute;
+      left: 40px;
+      bottom: 42px;
+      z-index: 9999999;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      letter-spacing: 0.8px;
+  .slider__dots
+    bottom: 60px
+@media (max-width: 1259px)
+  #submenu
+    padding-left: 20px;
+  .submenu
+    &:last-child
+      width: 200px
+@media (max-width: 1199px)
+  .submenu__four
+    margin-right: 2px
+  #submenu
+    width: 754px;
+    flex-wrap: wrap;
+  .submenu
+    margin-top: 25px;
+  .navbar
+    &__content
+      justify-content: center;
+    &-btn
+      margin-top: 10px
+  .nav
+    &-contacts
+      &__list
+        padding-right: 0px;
+        margin-top: 8px;
+        font-size: 13px;
+        display: flex;
+  .slider__dots img
+    width: 100px;
+    height: 80px;
+  .slider__dots li
+    width: 135px;
+  .slider__dots
+    bottom: 49px
+  .owl
+    &-title
+      font-size: 18px
+      margin-top: 23px
+    &-subtitle
+      font-size: 13px
+    &-block
+      background-color: #7dad4b;
+      min-width: 258px;
+      height: 90px;
+      position: absolute;
+      left: 30px;
+      bottom: 47px;
+      z-index: 9999999;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      letter-spacing: 0.8px;
+@media (max-width: 992px)
+  #submenu
+    width: 714px;
+    flex-wrap: wrap;
+  .submenu
+    &:last-child
+      width: 130px
+  .slider__dots img
+    width: 85px;
+    height: 70px;
+  .slider__dots
+    bottom: 28px;
+    & li
+      width: 120px;
+  .owl
+    &-title
+      margin-top: 13px
+      margin-left: 10px
+    &-subtitle
+      margin-left: 10px
+    &-block
+      min-width: 180px;
+      height: 70px;
+      position: absolute;
+      left: 12px;
+      bottom: 35px;
+      z-index: 9999999;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      letter-spacing: 0.8px;
+  .nav-logo
+    margin-left: 15px
+  .nav-contacts__list
+    margin-right: 12px
+  .nav__input
+    width: 260px
+    margin-right: -5px
+@media (max-width: 768px)
+  .nav-logo
+    margin-left: 7px
+  .nav-contacts
+    margin-right: 0
+  .nav
+    &__input
+      width: 145px;
+      margin-left: -2px;
+      height: 26px;
+    &bar
+      display: none
+  .slider__dots img
+    width: 70px;
+    height: 50px;
+  .slider__dots li
+    width: 105px;
+  .slider__dots
+    margin-bottom: 0
+  .slick-slide img
+    height: 80vh
+  .owl
+    &-title
+      margin-top: 13px
+      margin-left: 10px
+    &-subtitle
+      margin-left: 10px
+    &-block
+      min-width: 180px;
+      height: 70px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%)
+      bottom: 68px;
+      z-index: 9999999;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+@media (min-width: 769px)
+  .nav
+    &-phone
+      display: none
+@media (max-width: 620px)
+  .nav
+    &-contacts
+      &__list
+        display: none
+    &__input
+      display: none
+    /*width: 130px;
+      margin-left: 5px;
+      height: 25px; */
+  .slick-slide img 
+    height: 57vh;
+  .slider__dots img
+    width: 50px;
+    height: 30px;
+  .slider__dots li
+    width: 82px;
+  .slider__dots
+    bottom: 17px;
+  .owl
+    &-title
+      margin-top: 8px
+      margin-left: 8px
+      font-size: 14px
+    &-subtitle
+      margin-left: 8px
+      font-size: 10px
+      margin-top: 5px
+    &-block
+      min-width: 160px;
+      height: 45px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%)
+      bottom: 46px;
+      z-index: 9999999;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+  .slick-dotted.slick-slider
+    margin-bottom: -23px;

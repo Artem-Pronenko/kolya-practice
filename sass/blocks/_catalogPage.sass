@@ -1,0 +1,122 @@
+.product
+  padding-bottom: 200px
+.card
+  &__input
+    width: 55px
+    height: 39px;
+    border: 1px solid #f3f3f3;
+    text-align: center
+  &-product
+    height: 353px;
+    width: 284px
+    overflow: hidden
+    background-color: #fff
+    padding-bottom: 39px
+    transition: 0.3s
+    position: relative
+    &:hover
+      height: 510px;
+      position: absolute
+      z-index: 9999
+      box-shadow: 0 1px 51px 11px rgba(127, 128, 139, 0.06);
+    &__container
+      display: flex
+      justify-content: space-around
+      flex-wrap: wrap
+      max-width: 900px
+    &__content
+      width: 284px
+      height: 396px
+      margin-bottom: 20px
+    &__img
+      position: relative
+      height: 282px
+      border-bottom: 1px solid #ededed
+    &__image
+      position: absolute
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      margin: auto
+    &__title
+      margin-top: 32px
+      margin-left: 24px
+      color: $text-color
+      font-size: 16px
+      font-weight: 400
+      letter-spacing: 0.32px
+    &__info
+      width: 234px
+      margin: auto
+      margin-top: 23px
+      display: flex
+      justify-content: space-between
+    &__hide
+      width: 233px
+      margin: auto
+      display: flex
+      justify-content: space-between
+    &_hide
+      margin-top: 25px
+.sorting-sort__linck
+  align-items: center
+.catal__title
+  text-align: left
+  font-size: 28px
+  letter-spacing: 0.56px
+.sorting 
+  &-title
+    padding-right: 14px
+  &.sorting__line
+    min-height: 55px;
+    margin-bottom: 40px
+    display: flex
+    background-color: #fff
+    align-items: center
+    padding-left: 25px
+  &-sort
+    display: flex
+    &__linck 
+      cursor: pointer
+      min-width: 110px;
+      display: flex
+      justify-content: center
+      padding: 6px 0px
+      border: 1px solid #ececec;
+      border-radius: 13px;
+      font-size: 14px;
+      color: $text-color
+      margin-right: 14px
+      height: 13px
+.sort_three
+  background: #7dad4b
+  color: #fff
+.button
+  &-success
+    &__card
+      margin: auto
+      display: flex
+      padding: 17px 53px
+@media (max-width: 992px)
+  .catalog-menu
+    display: none
+@media (max-width: 768px)
+  .card
+    &-product
+      &__container
+        justify-content: space-between
+      &__content
+        margin: auto
+        margin-bottom: 20px
+  .sorting
+    &-sort
+      flex-wrap: wrap
+      justify-content: space-around
+      &__linck 
+        font-size: 13px
+        margin-top: 8px
+        &:last-child
+          margin-bottom: 8px
+        &:first-child
+          margin-top: 8px

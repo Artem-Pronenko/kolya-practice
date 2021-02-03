@@ -1,0 +1,168 @@
+.benefit 
+  position: relative
+  &-text
+    font-size: 15px
+    font-weight: 400
+    line-height: 24px
+    max-width: 459px
+  &-title
+    margin-bottom: 35px
+    font-size: 32px
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 34px
+  &-subtitle
+    margin-top: 35px
+    margin-bottom: 30px
+    font-weight: 700
+    text-transform: uppercase
+    font-size: 18px
+    line-height: 36px
+  &-block
+    margin-left: 320px
+    display: flex
+    flex-direction: column
+    width: 100%
+    max-width: 500px
+  &__button
+    padding: 12px 77px
+    margin-right: 45px
+    margin-top: 45px
+    background-color: #ee8b15
+.more__button
+  padding: 15px
+  font-size: 14px
+  font-weight: 700
+  line-height: 30px
+  letter-spacing: normal
+  color: #7dad4b
+  background-color: Transparent
+  & img 
+    margin-left: 30px
+.top-dots
+  display: flex
+  margin-top: 35px;
+  & button
+    background-color: Transparent
+    border: none
+    outline: none
+    &:before
+      content: '0'
+.benefit-slider
+  position: relative
+  &::before
+    content: ''
+    width: 50%
+    position: absolute
+    background-color: #fff
+    top: 0
+    left: 0
+.draggable
+  max-width: 1036px
+  max-height: 612px
+@media (max-width: 1800px)
+  .benefit 
+    &-block
+      margin-left: 0px
+  .draggable
+    max-width: 950px
+@media (max-width: 1700px)
+  .draggable
+    max-width: 930px
+    max-height: 580px
+@media (max-width: 1600px)
+  .draggable
+    max-width: 900px
+@media (max-width: 1500px)
+    .draggable
+      max-width: 850px
+@media (max-width: 1400px)
+    .draggable
+      max-width: 800px
+@media (max-width: 1350px)
+    .draggable
+      width: 600px
+@media (max-width: 1200px) 
+  .draggable
+      width: 1100px
+      height: 430px
+      margin: auto
+  .top-dots
+    margin-top: -22px
+    left: 50%
+    transform: translateX(-50%)
+  .benefit
+    flex-direction: column
+    &-title
+      text-align:  left
+      max-width: 1080px 
+    &-text
+      max-width: 800px 
+      text-align: center
+    &-block
+      margin-bottom: 30px;
+  .top-dots
+    position: absolute
+    top: 435px
+    z-index: 9999
+    font-size: 20px
+    font-weight: 700
+@media (max-width: 992px)
+  .benefit
+    padding-top: 30px
+    flex-direction: column
+    &-title
+      text-align:  center
+      margin: auto
+    &-text
+      max-width: 600px 
+      margin: auto
+    &-subtitle
+      margin: auto
+  .top-dots
+    top: 377px
+    margin-top: 0px
+@media (max-width: 907px)
+  .draggable
+    width: 700px
+    height: 430px
+@media (max-width: 768px)
+  .benefit img
+    max-width: 450px
+  .draggable
+    width: 450px
+    &-subtitle
+      margin: auto
+  .benefit-buttons
+    display: none
+  .top-dots
+    top: 327px
+@media (max-width: 576px)
+  .benefit img
+    max-width: 350px
+  .draggable
+    width: 350px
+  .benefit
+    flex-direction: column
+    &-title
+      text-align:  center
+      width: 290px 
+      font-size: 18px
+    &-text
+      font-size: 13px
+    &-subtitle
+      font-size: 14px
+      margin: auto
+    &__button
+      display: block
+      margin: auto
+      padding: 5px 15px
+  .slick-dotted.slick-slider
+    margin-bottom: -90px;
+  .top-dots
+    top: 280px
+@media (max-width: 350px)
+  .benefit img
+    max-width: 310px
+  .draggable
+    width: 310px

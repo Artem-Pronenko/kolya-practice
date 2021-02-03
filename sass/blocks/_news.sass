@@ -1,0 +1,87 @@
+.section
+  &.news
+    margin-top: -31px
+    padding-top: 70px
+    padding-bottom: 89px
+    background-color: #f3f3f3
+.news
+  &__title
+    font-size: 32px
+  &__subtitle
+    font-size: 15px
+    position: relative
+    &::after
+      content: ''
+      position: absolute
+      display: block
+      width: 47px
+      top: 40px
+      border-bottom: 1px solid #000
+      margin-bottom: 40px
+  &-list
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-top: 68px
+    &__item
+      position: relative
+      margin-bottom: 19px
+.button-success__news
+  position: absolute
+  bottom: 32px
+  left: 25px
+  z-index: 111
+  padding: 16px 53px
+  background-color: #63564f
+.button-success__two
+  padding: 16px 34px
+.button-success__three
+  padding: 16px 43px
+.button-success__four
+  padding: 16px 33px
+.button-success
+  &:hover
+    background-color: lighten($decorate-color, 10%)
+  &__newsDown
+    display: flex
+    margin: auto
+    margin-top: 23px
+    padding: 16px 52px
+.news-list__item
+  cursor: pointer
+  &:hover
+    .button-success
+      background-color: lighten($decorate-color, 10%)
+.button-success__newsDown
+  display: flex
+  justify-content: center
+  width: 115px
+@media (max-width: 1202px)
+  .news-list
+    justify-content: center
+@media (max-width: 1199px)
+  .news-list
+    justify-content: center
+@media (max-width: 768px)
+  .news-list__item img
+    width: 450px
+@media (max-width: 768px)
+  .news-list__item img
+    width: 290px
+  .button-success__news
+    position: absolute
+    bottom: 7px
+    left: 15px
+    z-index: 111
+    padding: 11px 20px
+    font-size: 11px
+    /* убираю ховеры */
+@media (max-width: 991px)
+  .news-list__item
+    cursor: pointer
+    &:hover
+      .button-success
+        background-color: #63564f
+  .button-success
+    &:hover
+      background-color: $decorate-color
